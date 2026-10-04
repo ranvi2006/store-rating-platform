@@ -1,0 +1,1 @@
+module.exports = () => (process.env.ADMIN_EMAIL || '').trim().toLowerCase();
